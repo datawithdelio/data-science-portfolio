@@ -1,11 +1,11 @@
-# 💻 Laptop Price Prediction
+# Airbnb Market Gap Analysis 🏡
 
-Predict laptop prices from hardware features using a trained ML pipeline.  
-Includes a Streamlit app for manual inputs or CSV/JSON batch scoring.
+This project analyzes **Airbnb listings in Dublin** to uncover demand–supply gaps across neighborhoods, property types, and price bands.  
+It includes both an **interactive Streamlit dashboard** and a **Jupyter Notebook** with exploratory analysis.
 
-## Quickstart
+## 🚀 Quickstart
+
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app/streamlit_app.py
+git clone https://github.com/datawithdelio/airbnb-market-gap-analysis.git
+cd airbnb-market-gap-analysis
+
