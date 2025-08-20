@@ -1,0 +1,7 @@
+model,f1,accuracy,best_params
+xgb,0.8044692737430168,0.9475262368815592,"{'clf__colsample_bytree': 1.0, 'clf__learning_rate': 0.1, 'clf__max_depth': 4, 'clf__subsample': 1.0}"
+rf,0.7407407407407407,0.9370314842578711,"{'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 200}"
+dt,0.7126436781609196,0.9250374812593704,"{'clf__max_depth': 6, 'clf__min_samples_split': 10}"
+svm,0.6428571428571429,0.9100449775112444,"{'clf__C': 5, 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+knn,0.4,0.8830584707646177,"{'clf__n_neighbors': 5, 'clf__weights': 'uniform'}"
+logreg,0.3611111111111111,0.8620689655172413,"{'clf__C': 10, 'clf__penalty': 'l2', 'clf__solver': 'lbfgs'}"
